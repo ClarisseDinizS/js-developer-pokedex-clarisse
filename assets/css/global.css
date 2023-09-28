@@ -1,17 +1,56 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    
 }
 
 body {
-    background-color: #f6f8fc;
+    background: rgb(226, 140, 140);
+    background: linear-gradient(135deg, rgb(175, 129, 129) 0%, rgb(160, 36, 123) 100%);
+}
+
+h1, h2{
+    color: white;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+dialog{
+    background-color: rgb(195, 231, 214);
+    border-radius: 5%;
+    width: 500px;
+    height: fit-content;
+}
+
+@keyframes mymove {
+    5% {border-color: #77c850;}
+    10% {border-color: lightblue;}
+    15% {border-color: #ee7f30;}
+    20% {border-color: #678fee;}
+    25% {border-color: #f7cf2e;}
+    30% {border-color: #98d5d7;}
+    35% {border-color: #dfbf69;}
+    40% {border-color: #a98ff0;}
+    45% {border-color: #a040a0;}
+    50% {border-color: #bf3029;}
+    55% {border-color: #f65687;}
+    60% {border-color: #b8a137;}
+    65% {border-color: #a8b720;}
+    70% {border-color: #6e5896;}
+    85% {border-color: #6f38f6;}
+    100% {border-color: #f9aec7;}
 }
 
 .content {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: rgba(255,255,255,.3);
+    border: 2px solid #fff;
+    animation: mymove 30s infinite;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -20,5 +59,6 @@ body {
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
+        
     }
 }

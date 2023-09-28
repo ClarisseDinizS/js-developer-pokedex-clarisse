@@ -8,74 +8,92 @@
 
 .normal {
     background-color: #a6a877;
+    background: linear-gradient(135deg, #1e1e1e 0%, #a6a877 100%);
 }
 
 .grass {
     background-color: #77c850;
+    background: linear-gradient(135deg, #1e1e1e 0%, #77c850 100%);
 }
 
 .fire {
     background-color: #ee7f30;
+    background: linear-gradient(135deg, #1e1e1e 0%, #ee7f30 100%);
 }
 
 .water {
     background-color: #678fee;
+    background: linear-gradient(135deg, #1e1e1e 0%, #678fee 100%);
 }
 
 .electric {
     background-color: #f7cf2e;
+    background: linear-gradient(135deg, #1e1e1e 0%, #f7cf2e 100%);
 }
 
 .ice {
     background-color: #98d5d7;
+    background: linear-gradient(135deg, #1e1e1e 0%, #98d5d7 100%);
 }
 
 .ground {
     background-color: #dfbf69;
+    background: linear-gradient(135deg, #1e1e1e 0%, #dfbf69 100%);
 }
 
 .flying {
     background-color: #a98ff0;
+    background: linear-gradient(135deg, #1e1e1e 0%, #a98ff0 100%);
 }
 
 .poison {
     background-color: #a040a0;
+    background: linear-gradient(135deg, #1e1e1e 0%, #a040a0 100%);
 }
 
 .fighting {
     background-color: #bf3029;
+    background: linear-gradient(135deg, #1e1e1e 0%, #bf3029 100%);
 }
 
 .psychic {
     background-color: #f65687;
+    background: linear-gradient(135deg, #1e1e1e 0%, #f65687 100%);
 }
 
 .dark {
     background-color: #725847;
+    background: linear-gradient(135deg, #1e1e1e 0%, #725847 100%);
 }
 
 .rock {
     background-color: #b8a137;
+    background: linear-gradient(135deg, #1e1e1e 0%, #b8a137 100%);
 }
 
 .bug {
     background-color: #a8b720;
+    background: linear-gradient(135deg, #1e1e1e 0%, #a8b720 100%);
 }
 
 .ghost {
     background-color: #6e5896;
+    background: linear-gradient(135deg, #1e1e1e 0%, #6e5896 100%);
 }
 
 .steel {
     background-color: #b9b7cf;
+    background: linear-gradient(135deg, #1e1e1e 0%, #b9b7cf 100%);
 }
 
 .dragon {
     background-color: #6f38f6;
+    background: linear-gradient(135deg, #1e1e1e 0%, #6f38f6 100%);
 }
 
 .fairy {
     background-color: #f9aec7;
+    background: linear-gradient(135deg, #1e1e1e 0%, #f9aec7 100%);
 }
 
 .pokemon {
@@ -84,11 +102,12 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    border-style: groove;
 }
 
 .pokemon .number {
-    color: #000;
-    opacity: .3;
+    color: #000000;
+    opacity: 3;
     text-align: right;
     font-size: .625rem;
 }
@@ -140,8 +159,8 @@
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
-    color: #fff;
-    background-color: #6c79db;
+    color: #ffffff;
+    background-color: #5e6abe;
     border: none;
     border-radius: 1rem;
 }
